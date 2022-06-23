@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Programação web com PHP - Curso CTDS - Segunda fase </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+    <h1> Programação web - Exercício 7</h1>
+    <form method="post" action="exerc7.php">
+<fieldset>
+<legend> Processamento de vendas com PHP </legend><br><br>
+
+<label> Forneça o valor da compra efetuada pelo cliente: </label>
+<input type="number" name="valor-compra" min="0" step="0.01" autofocus> <br><br><br>
+
+<label> O cliente pagou com cartão de crédito? </label>
+<input type="radio" name="forma-pagamento" value="Sim"> Sim
+<input type="radio" name="forma-pagamento" value="Não"> Não <br><br><br>
+
+<label> Compra entregue em domicílio? </label>
+<input type="radio" name="envio" value="Sim"> Sim
+<input type="radio" name="envio" value="Não"> Não <br><br><br>
+
+<button type="submit"> Calcular dados da venda </button> <br>
+</fieldset>
+    </form>
+</body> 
+</html> 
