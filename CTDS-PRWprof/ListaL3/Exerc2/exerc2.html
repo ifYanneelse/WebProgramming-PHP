@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Vetores em PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Vetores em PHP - Cadastro de notas de alunos </h1>
+
+ <form action="exerc2.php" method="post">
+  <fieldset>
+   <legend> Cadastro de rendimento dos alunos em PRW </legend>
+
+   <label class="alinha"> Forneça o nome do primeiro aluno: </label>
+   <input type="text" name="aluno1" autofocus> <br>
+
+   <label class="alinha"> Forneça a nota do primeiro aluno: </label>
+   <input type="number" max="10" min="0" step="0.1" name="nota1"> <br>
+
+   <label class="alinha"> Forneça o nome do segundo aluno: </label>
+   <input type="text" name="aluno2"> <br>
+
+   <label class="alinha"> Forneça a nota do segundo aluno: </label>
+   <input type="number" max="10" min="0" step="0.1" name="nota2"> <br>
+
+   <label class="alinha"> Forneça o nome do terceiro aluno: </label>
+   <input type="text" name="aluno3"> <br>
+
+   <label class="alinha"> Forneça a nota do terceiro aluno: </label>
+   <input type="number" max="10" min="0" step="0.1" name="nota3"> <br>
+
+   <button type="submit"> Cadastrar dados do alunos </button>  
+  </fieldset>
+ </form>
+    
+</body> 
+</html> 

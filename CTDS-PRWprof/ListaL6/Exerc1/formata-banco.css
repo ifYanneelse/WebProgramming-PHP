@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body {
+ font-family: Abel;
+ margin: 0;
+ font-size: 18px;
+}
+
+h1 {
+ text-align: center;
+ border-bottom: 1px solid #777;
+ background: #ccc;
+ margin: 0;
+ box-shadow: 0 0 5px 5px #0f083b; 
+ text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+ margin-bottom: 20px;
+}
+
+label.alinha {
+ width: 150px;
+ display: inline-block;
+ text-align: right;
+ margin-bottom: 10px;
+}
+
+input[name="aluno"] {
+ width: 300px;
+}
+
+input {
+ font-family: Abel;
+ font-size: 18px;
+}
+
+fieldset {
+ width: 40%;
+ background-color: rgba(200, 200, 200, 0.5);
+ border-radius: 10px;
+ margin: 10px auto;
+ box-shadow: 5px 5px 5px #0f083b; 
+ padding-left: 20px;
+}
+
+button {
+ font-family: Abel;
+ font-size: 18px;
+ font-weight: bold; 
+ margin: auto;
+ margin-top: 15px;
+ display: block;
+}
+
+p {
+ width: 50%;
+ border: 1px solid #777;
+ padding: 20px;
+ margin: 20px auto;
+}
+
+table {
+ width: 50%;
+ border: 1px solid #777;
+ background: rgba(133, 125, 177, 0.5);
+ margin: 30px auto;
+ border-collapse: collapse;
+}
+
+th, td {
+ border: 1px solid #777;
+}
+
+th {
+ background: #070323;
+ color: #fff;
+}
+
+td {
+ padding-left: 15px;
+}
+
+span {
+ color: #0f083b;
+ font-weight: bold;
+ font-style: italic;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Banco de dados com PHP </title> 
+  <link rel="stylesheet" href="formata-banco.css">
+</head> 
+
+<body> 
+ <h1> Banco de dados MySQL com PHP - exercício 1 </h1>
+
+  <form action="exerc1.php" method="post">
+   <fieldset>
+    <legend> Cadastro do aluno </legend>
+    <label class="alinha"> Nome: </label>
+    <input type="text" name="aluno" autofocus placeholder="Forneça o nome do aluno"> <br>
+
+    <label class="alinha"> Matrícula: </label>
+    <input type="text" name="matricula"> <br>
+
+    <label class="alinha"> Média final em PRW: </label>
+    <input type="number" name="media" min="0" max="10" step="0.1"> <br>
+
+    <button name="cadastrar"> Cadastrar aluno </button>
+   </fieldset>
+
+   <fieldset>
+    <legend> Mostrar dados dos alunos </legend>
+    <button name="listar-dados"> Listar dados dos alunos </button>
+   </fieldset>
+
+   <fieldset>
+    <legend> Mostrar número de alunos aprovados </legend>
+    <button name="contar-aprovados"> Mostrar número de alunos aprovados </button>
+   </fieldset>
+  </form>    
+</body> 
+</html> 

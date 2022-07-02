@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamentos do PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Fundamentos do PHP </h1>
+
+ <form action="exerc9.php" method="post">
+  <fieldset>
+   <legend> Processamento de vendas com PHP </legend>
+
+   <label> Forneça o valor da compra efetuada pelo cliente: </label>
+   <input type="number" name="valor-compra" min="0" step="0.01"  autofocus> <br> <br>
+
+   <label> Qual a forma de pagamento utilizada pelo cliente? </label> <br>
+   <input type="radio" name="forma-pagamento" value="Pagamento à vista"> Pagamento à vista <br>
+   <input type="radio" name="forma-pagamento" value="Pagamento a prazo"> Pagamento a prazo <br> <br>
+
+   <input type="checkbox" name="cartao" value="Sim"> Marque esta opção se o cliente efetuou o pagamento com cartão Visa <br>   
+
+   <button type="submit"> Processar dados da venda </button>  
+  </fieldset>
+ </form>    
+</body> 
+</html> 

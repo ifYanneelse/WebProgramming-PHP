@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Funções de usuário em PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Funções de usuário em PHP - conversão de temperaturas </h1>
+
+ <form action="exerc3.php" method="post">
+  <fieldset>
+   <legend> Conversão de temperaturas </legend>
+
+   <label> Forneça a temperatura a ser convertida: </label>
+   <input type="number" name="temp" autofocus step="any">    <br> <br>
+
+   <label> Escolhida a escala de conversão: </label> <br>
+   <input type="radio" name="escala" value="0"> Converter da escala Celsius para a Fahrenheit <br>
+   <input type="radio" name="escala" value="1"> Converter da escala Fahrenheit  para a Celsius
+  </fieldset>    
+
+  <button type="submit"> Converter para a escala escolhida </button>  
+ </form>
+</body> 
+</html> 

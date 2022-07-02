@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamentos do PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Fundamentos do PHP </h1>
+
+ <form action="exerc7.php" method="post">
+  <fieldset>
+   <legend> Processamento de vendas com PHP </legend>
+
+   <label> Forneça o valor da compra efetuada pelo cliente: </label>
+   <input type="number" name="valor-compra" min="0" step="0.01"  autofocus> <br> <br>
+
+   <label> O cliente pagou com cartão de crédito? </label> <br>
+   <input type="radio" name="forma-pagamento" value="Sim"> Sim <br>
+   <input type="radio" name="forma-pagamento" value="Não"> Não <br> <br>
+
+   <label> Compra entregue em domicílio? </label> <br>
+   <input type="radio" name="envio" value="Sim"> Sim <br>
+   <input type="radio" name="envio" value="Não"> Não <br> 
+
+   <button type="submit"> Processar dados da venda </button>  
+  </fieldset>
+ </form>    
+</body> 
+</html> 

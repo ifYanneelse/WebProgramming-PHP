@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Arrays em PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Manipulação de vetores em PHP - Exercício 4 </h1>
+
+ <form action="exerc4.php" method="post">
+  <fieldset>
+   <legend> Lista de compras </legend>
+
+   <label> Selecione os produtos a serem adquiridos: </label> <br>
+			
+			<!--cuidado para não esquecer o colchetes[] após o name do checkbox-->
+			<input type="checkbox" name="item[]" value="Impressora"> Impressora <br>
+			<input type="checkbox" name="item[]" value="Celular"> Celular <br>
+			<input type="checkbox" name="item[]" value="Notebook"> Notebook <br>
+
+   <button type="submit"> Calcular valor da compra </button>  
+  </fieldset>
+ </form>    
+</body> 
+</html> 

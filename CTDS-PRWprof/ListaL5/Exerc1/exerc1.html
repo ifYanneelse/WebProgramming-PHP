@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Funções de usuário em PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Funções de usuário em PHP - cálculo de média </h1>
+
+ <form action="exerc1.php" method="post">
+  <fieldset>
+   <legend> Notas do aluno </legend>
+
+   <label class="alinha"> Forneça a primeira nota: </label>
+   <input type="number" name="nota1" min="0" max= "10" step="0.1" autofocus> <br>
+
+   <label class="alinha"> Forneça a segunda nota: </label>
+   <input type="number" name="nota2" min="0" max= "10" step="0.1">
+  </fieldset>    
+
+   <button type="submit"> Calcular média </button>  
+ </form>
+</body> 
+</html> 

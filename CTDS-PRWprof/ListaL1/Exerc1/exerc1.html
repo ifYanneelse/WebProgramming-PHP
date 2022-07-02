@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamentos do PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Fundamentos do PHP </h1>
+
+ <form action="exerc1.php" method="post">
+  <fieldset>
+   <legend> Dados do desempenho do aluno </legend>
+
+   <label class="alinha"> Forneça o nome do(a) aluno(a): </label>
+   <input type="text" name="aluno" autofocus> <br>
+
+   <label class="alinha"> Forneça a primeira nota: </label>
+   <input type="number" max="10" min="0" step="0.1" name="nota1"> <br>
+
+   <label class="alinha"> Forneça o peso da primeira nota: </label>
+   <input type="number" max="10" min="0" name="peso1"> <br>
+
+   <label class="alinha"> Forneça a segunda nota: </label>
+   <input type="number" max="10" min="0" step="0.1" name="nota2"> <br>
+
+   <label class="alinha"> Forneça o peso da segunda nota: </label>
+   <input type="number" max="10" min="0" name="peso2"> <br>
+
+   <button type="submit"> Calcular média </button>  
+  </fieldset>
+ </form>
+    
+</body> 
+</html> 
